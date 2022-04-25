@@ -7,3 +7,92 @@ body {
   color: #6c6c6c;
   font-weight: 300;
 }
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-family: 'Lobster' , cursive;
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  a:hover {
+    color: #54CD59;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* --- Navigation --- */
+  #nav-bar {
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+  }
+  
+  .logo img {
+    height: 2.2rem;
+  }
+  
+  #colmar {
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  #academy {
+    color: #c6cbc6;
+    font-family: sans-serif;
+    font-style: normal;
+      font-variant: normal;
+      font-weight: 100;
+  }
+  
+  .menu {
+    padding-right: 1.5rem;
+  }
+  
+  .menu a{
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    color: #4a4949;
+    padding-left: 1rem;
+  }
+  
+  .menu a:hover {
+    color: #2EE59D;
+  }
+  
